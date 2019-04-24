@@ -7976,18 +7976,12 @@ a {
       width: 30px; }
 
 @media (min-width: 992px) {
-  .stellarnav ul {
-    width: 900px;
-    padding-left: 100px;
-    background-size: cover; }
-    .stellarnav ul li > a {
-      color: #ffff;
-      padding: 1.5rem 0.2rem;
-      margin: 0 1rem;
-      font-size: 1.1rem; }
-      .stellarnav ul li > a:hover {
-        color: #ffc3c3;
-        font-size: 1.2rem; } }
+  .stellarnav ul li > a {
+    color: #ffff;
+    padding: 1rem;
+    margin: 0 1rem; }
+    .stellarnav ul li > a:hover {
+      color: #ffc3c3; } }
 
 .stellarnav li a {
   color: #ffff; }
