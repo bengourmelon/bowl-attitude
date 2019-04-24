@@ -47,7 +47,6 @@
     @media (min-width: $bp-large) {
         width: 900px;
         padding-left: 100px;
-        background: url('../images/bg-nav.png') center no-repeat;
         background-size: cover;
 
         li>a {
@@ -57,20 +56,20 @@
             font-size: 1.1rem;
 
             &:hover {
-                color: lighten($orange, 20%);
+                color: lighten($primary, 20%);
                 font-size: 1.2rem;
             }
         }
     }
 }
 
-.stellarnav.mobile ul {
-    background: $green-dark;
-}
+// .stellarnav.mobile ul {
+//     background: $green-dark;
+// }
 
 
 .stellarnav li a {
-    color: $white;
+    color: #ffff;
 }
 
 .stellarnav .icon-close:after, .stellarnav .icon-close:before {
