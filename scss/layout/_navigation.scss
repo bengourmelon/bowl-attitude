@@ -51,13 +51,13 @@
         background-size: cover;
 
         li>a {
-            color: $green-dark;
+            color: #ffff;
             padding: 1.5rem 0.2rem;
             margin: 0 1rem;
             font-size: 1.1rem;
 
             &:hover {
-                color: lighten($green-dark, 20%);
+                color: lighten($orange, 20%);
                 font-size: 1.2rem;
             }
         }
