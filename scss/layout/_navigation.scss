@@ -45,19 +45,13 @@
 .stellarnav ul {
 
     @media (min-width: $bp-large) {
-        width: 900px;
-        padding-left: 100px;
-        background-size: cover;
-
         li>a {
             color: #ffff;
-            padding: 1.5rem 0.2rem;
+            padding: 1rem;
             margin: 0 1rem;
-            font-size: 1.1rem;
 
             &:hover {
                 color: lighten($primary, 20%);
-                font-size: 1.2rem;
             }
         }
     }

@@ -1,5 +1,8 @@
 .page-footer {
-    background: url('../../images/bgd-ftr.jpg') center no-repeat;
+    background: url('../images/ftr-bgd.jpg');
+    background-size: cover;
+    width: 100%;
+    padding: 50vh;
 }
 
 footer .fab {
@@ -10,11 +13,6 @@ footer p,
 footer h3 {
     color: $white;
 }
-
-.footer-nav a {
-    font-size: 1.25rem;
-}
-
 
 .footer-content {
     display: flex;
