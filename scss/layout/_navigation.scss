@@ -1,0 +1,84 @@
+.stellarnav.mobile.left>ul {
+    z-index: 9999;
+}
+
+.stellarnav .menu-toggle {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-size: 0;
+
+    @media (min-width: $bp-medium) {
+        right: 20px;
+        top: 20px;
+    }
+
+    span.bars {
+        margin-right: 0;
+
+        span {
+            width: 30px;
+            height: 4px;
+            margin-bottom: 8px;
+            background-color: $white;
+
+            @media (min-width: $bp-medium) {
+                width: 40px;
+            }
+        }
+    }
+}
+
+.stellarnav .close-menu {
+    font-size: 0;
+
+    .icon-close {
+        width: 30px;
+
+        &::before,
+        &::after {
+            width: 30px;
+        }
+    }
+}
+
+.stellarnav ul {
+
+    @media (min-width: $bp-large) {
+        width: 900px;
+        padding-left: 100px;
+        background: url('../images/bg-nav.png') center no-repeat;
+        background-size: cover;
+
+        li>a {
+            color: $green-dark;
+            padding: 1.5rem 0.2rem;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+
+            &:hover {
+                color: lighten($green-dark, 20%);
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.stellarnav.mobile ul {
+    background: $green-dark;
+}
+
+
+.stellarnav li a {
+    color: $white;
+}
+
+.stellarnav .icon-close:after, .stellarnav .icon-close:before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 0;
+    top: 50%;
+    border-bottom: solid 3px $white;
+    position: absolute;
+}
