@@ -7977,12 +7977,19 @@ a {
       width: 30px; }
 
 @media (min-width: 992px) {
+  .main-nav {
+    background-color: rgba(0, 0, 0, 0.5); } }
+
+@media (min-width: 992px) {
   .stellarnav ul li > a {
     color: #ffff;
     padding: 1rem;
     margin: 0 1rem; }
     .stellarnav ul li > a:hover {
       color: #ffc3c3; } }
+
+.stellarnav.mobile ul {
+  background: #FF5D5D; }
 
 .stellarnav li a {
   color: #ffff; }
@@ -8016,6 +8023,31 @@ header .container {
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start; } }
+
+.item-2 .contim {
+  overflow: hidden; }
+
+.item-2 img {
+  transition: 0.5s; }
+
+.item-2 a:hover img {
+  transform: scale(1.1); }
+
+.item-2 {
+  overflow: hidden; }
+
+.item-2 .continfos {
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.521);
+  transition: 0.5s;
+  opacity: 0; }
+
+.item-2 a:hover .continfos {
+  opacity: 1;
+  bottom: 0; }
 
 .page-footer {
   background: url("../images/ftr-bgd.jpg");
@@ -8055,7 +8087,7 @@ footer h3 {
 
 .search-form input, .search-form button {
   border: none;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #000000;
   padding: 0.75rem 1.5rem;
   transition: background 0.3s; }
@@ -8067,7 +8099,7 @@ button {
   cursor: pointer; }
   button .fas {
     font-size: 1.5rem;
-    color: #fff; }
+    color: #FF5D5D; }
   button:hover {
     background-color: white; }
 
