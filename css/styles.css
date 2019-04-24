@@ -7940,7 +7940,8 @@ p {
 
 a {
   color: #FF5D5D;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 1.25rem; }
   a:hover {
     text-decoration: underline;
     color: white; }
@@ -8025,9 +8026,6 @@ footer .fab {
 footer p,
 footer h3 {
   color: #fff; }
-
-.footer-nav a {
-  font-size: 1.25rem; }
 
 .footer-content {
   display: flex;
