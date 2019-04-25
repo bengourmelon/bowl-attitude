@@ -5,30 +5,16 @@ body {
 
 
 h1 {
-    background: url('../images/h1-mobile.png') no-repeat center;
-    background-size: contain;
+    background: url('../images/bg-h1.png') no-repeat center;
+    background-size: cover;
     text-align: center;
-    padding: 30px 0;
+    padding: 450px 0;
     margin-bottom: 50px;
     color: $white;
-    font-weight: 700;
-    font-style: italic;
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 2.7rem;
+    font-size: 7rem;
     font-family: $font-title;
-
-
-    @media (min-width: $bp-medium) {
-        background: url('../images/h1-tablet.png') no-repeat center;
-        background-size: cover;
-        padding: 20px 0;
-
-    }
-    @media (min-width: $bp-large) {
-        background: url('../images/h1-desktop.png') no-repeat center;
-        background-size: cover;
-        font-size: 3rem;
-    }
 }
 
 
