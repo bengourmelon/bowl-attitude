@@ -8017,6 +8017,48 @@ header .container {
       justify-content: space-between;
       align-items: flex-start; } }
 
+@media (max-width: 480px) {
+  .row {
+    justify-content: center; } }
+
+@media (min-width: 768px) {
+  .hero-prez {
+    width: 230px;
+    padding: 10px 5px; } }
+@media (max-width: 480px) {
+  .hero-prez {
+    width: 180px; } }
+
+.figure {
+  overflow: hidden;
+  position: relative; }
+
+.figure a {
+  display: block; }
+
+.figcaption {
+  overflow: hidden; }
+
+.figure img {
+  transition: 0.5s;
+  display: block; }
+
+.figure a:hover img {
+  transform: scale(1.1); }
+
+.figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+  opacity: 0; }
+
+.figure:hover .figcaption {
+  opacity: 1;
+  bottom: 0; }
+
 .page-footer {
   background: url("../images/ftr-bgd.jpg");
   background-size: cover;

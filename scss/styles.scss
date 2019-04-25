@@ -2,6 +2,7 @@
 
 @import 'abstracts/variables';
 @import '../node_modules/bootstrap/scss/bootstrap';
+
 @import 'abstracts/mixins';
 
 @import 'base/base';
@@ -9,6 +10,7 @@
 
 @import 'layout/navigation';
 @import 'layout/header';
+@import 'layout/hero-1';
 @import 'layout/services';
 @import 'layout/footer';
 @import 'layout/forms';
