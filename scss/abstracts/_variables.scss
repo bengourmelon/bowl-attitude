@@ -7,10 +7,14 @@ $orange: #FF5D5D;
 $primary: $orange;
 
 // // Typos
-$font-default: 'Rubik',
-sans-serif;
-$font-title :'Caveat Brush', cursive;
+@font-face {
+    font-family: 'strawberry_blossom';
+    src: url('../fonts/strawberry_blossom-webfont.woff2') format('woff2'),
+    url('../fonts/strawberry_blossom-webfont.woff') format('woff');
+}
 
+$font-default: 'Rubik', sans-serif;
+$font-title :'strawberry_blossom', cursive;
 
 // Layout
 $max-width: 1200px;
@@ -18,4 +22,4 @@ $bp-small: 480px;
 $bp-medium: 768px;
 $bp-large : 992px;
 $spacer : 15px;
-$big-spacer : 50px; 
+$big-spacer : 50px;

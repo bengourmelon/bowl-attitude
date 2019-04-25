@@ -297,6 +297,9 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: 'strawberry_blossom';
+  src: url("../fonts/strawberry_blossom-webfont.woff2") format("woff2"), url("../fonts/strawberry_blossom-webfont.woff") format("woff"); }
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7922,7 +7925,7 @@ h1 {
   font-style: italic;
   text-transform: uppercase;
   font-size: 2.7rem;
-  font-family: "Caveat Brush", cursive; }
+  font-family: "strawberry_blossom", cursive; }
   @media (min-width: 768px) {
     h1 {
       background: url("../images/h1-tablet.png") no-repeat center;
@@ -7977,12 +7980,19 @@ a {
       width: 30px; }
 
 @media (min-width: 992px) {
+  .main-nav {
+    background-color: rgba(0, 0, 0, 0.5); } }
+
+@media (min-width: 992px) {
   .stellarnav ul li > a {
     color: #ffff;
     padding: 1rem;
     margin: 0 1rem; }
     .stellarnav ul li > a:hover {
       color: #ffc3c3; } }
+
+.stellarnav.mobile ul {
+  background: #FF5D5D; }
 
 .stellarnav li a {
   color: #ffff; }
@@ -8059,6 +8069,54 @@ header .container {
   opacity: 1;
   bottom: 0; }
 
+.concept-articles {
+  background-color: rvba 0, 0, 0, 0.65;
+  padding: 80px 0;
+  text-align: center; }
+  .concept-articles h2 {
+    font-size: 2.5rem; }
+  .concept-articles .qsn {
+    padding: 40px 0;
+    position: relative; }
+    .concept-articles .qsn .text {
+      font-family: "Rubik", sans-serif;
+      background-color: rgba(76, 78, 62, 0.65);
+      color: #f8f9fa;
+      position: absolute;
+      top: 150px;
+      left: 20%;
+      width: 40%;
+      padding: 40px 40px; }
+  .concept-articles .qsn-2 .img img {
+    margin: 0 0 0 auto; }
+  .concept-articles .qsn-2 .text {
+    left: 40%; }
+
+.item-2 .contim {
+  overflow: hidden; }
+
+.item-2 img {
+  transition: 0.5s; }
+
+.item-2 a:hover img {
+  transform: scale(1.1); }
+
+.item-2 {
+  overflow: hidden; }
+
+.item-2 .continfos {
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.521);
+  transition: 0.5s;
+  opacity: 0; }
+
+.item-2 a:hover .continfos {
+  opacity: 1;
+  bottom: 0; }
+
 .page-footer {
   background: url("../images/ftr-bgd.jpg");
   background-size: cover;
@@ -8097,7 +8155,7 @@ footer h3 {
 
 .search-form input, .search-form button {
   border: none;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #000000;
   padding: 0.75rem 1.5rem;
   transition: background 0.3s; }
@@ -8109,7 +8167,7 @@ button {
   cursor: pointer; }
   button .fas {
     font-size: 1.5rem;
-    color: #fff; }
+    color: #FF5D5D; }
   button:hover {
     background-color: white; }
 
