@@ -42,6 +42,13 @@
     }
 }
 
+
+.main-nav {
+    @media (min-width: $bp-large) {
+        background-color:rgba(0, 0, 0, 0.5);
+    }
+}
+
 .stellarnav ul {
 
     @media (min-width: $bp-large) {
@@ -57,9 +64,9 @@
     }
 }
 
-// .stellarnav.mobile ul {
-//     background: $green-dark;
-// }
+.stellarnav.mobile ul {
+    background: $orange;
+}
 
 
 .stellarnav li a {
