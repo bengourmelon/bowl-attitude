@@ -1,5 +1,5 @@
 .row {
-    @media (max-width: $bp-small) {
+    @media (max-width: $bp-medium) {
 
         justify-content: center
     }
@@ -15,7 +15,7 @@
         padding: 10px 5px;
     }
 
-    @media (max-width: $bp-small) {
+    @media (max-width: $bp-medium) {
         width: 180px;
     }
 }
