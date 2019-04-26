@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .row {
     @media (max-width: $bp-medium) {
 
@@ -55,4 +56,69 @@
 .figure:hover .figcaption {
     opacity: 1;
     bottom: 0;
+=======
+.hero-1 h1 {
+    background: none;
+    color: $black;
+    padding: 30px 0;
+}
+
+.row {
+    @media (max-width: $bp-medium) {
+
+        justify-content: center
+    }
+}
+
+.hero-prez {
+
+
+    
+
+    @media (min-width: $bp-medium) {
+        width: 230px;
+        padding: 10px 5px;
+    }
+
+    @media (max-width: $bp-medium) {
+        width: 180px;
+    }
+}
+
+.figure {
+    overflow: hidden;
+    position: relative;
+}
+
+.figure a{
+    display: block;
+}
+
+.figcaption {
+    overflow: hidden;
+}
+
+.figure img {
+    transition: 0.5s;
+    display: block
+}
+
+.figure a:hover img {
+    transform: scale(1.1)
+}
+
+.figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.figure:hover .figcaption {
+    opacity: 1;
+    bottom: 0;
+>>>>>>> 397ef14429998659c8a04807c15ac826e7a74f30
 }
