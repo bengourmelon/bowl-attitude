@@ -8102,6 +8102,14 @@ header .container {
 .presentation-content {
   background-color: #F0EDE9; }
 
+.article-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+  .article-presentation img {
+    width: 100px; }
+
 .item-2 .contim {
   overflow: hidden; }
 
