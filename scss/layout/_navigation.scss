@@ -1,7 +1,9 @@
-.stellarnav.mobile.left>ul {
-    z-index: 9999;
-}
 
+/* .stellarnav ul li > a{
+    margin: 0
+} */
+
+//stellarnav
 .stellarnav .menu-toggle {
     position: absolute;
     top: 30px;
@@ -42,23 +44,16 @@
     }
 }
 
-
-.main-nav {
-    @media (min-width: $bp-large) {
-        background-color:rgba(0, 0, 0, 0.5);
-    }
-}
-
 .stellarnav ul {
 
     @media (min-width: $bp-large) {
         li>a {
             color: #ffff;
             padding: 1rem;
-            margin: 0 1rem;
+            margin: 0;
 
             &:hover {
-                color: lighten($primary, 20%);
+                background-color:$primary;
             }
         }
     }
@@ -68,12 +63,15 @@
     background: $orange;
 }
 
-
+.stellarnav.mobile.left>ul {
+    z-index: 9999;
+  }
 .stellarnav li a {
     color: #ffff;
 }
 
-.stellarnav .icon-close:after, .stellarnav .icon-close:before {
+.stellarnav .icon-close:after,
+.stellarnav .icon-close:before {
     content: '';
     display: block;
     width: 12px;

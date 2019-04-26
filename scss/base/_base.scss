@@ -1,9 +1,16 @@
 body {
     margin: 0;
+
 }
 
 * {
     box-sizing: border-box;
+}
+
+.container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 15px $spacer;
 }
 
 img {
