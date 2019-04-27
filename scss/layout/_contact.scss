@@ -1,0 +1,28 @@
+.contact {
+    font-family: $font-default;
+    background-image: url('../images/bg_newsletter.jpg');
+    background-size: cover;
+    color: $orange;
+    padding-bottom: 50px;
+    h3 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 50px;
+    }
+    form {
+        max-width: 600px;
+        padding: 40px 40px 20px;
+        background-color: rgba(234, 226, 222, .8);
+        button {
+            background-color: $orange;
+            border: none;
+            padding: 5px 20px;
+            color: $light;
+            margin: 0 auto;
+            &:hover {
+                background-color: rgb(146, 40, 1);
+                transition: 0.5s;
+            }
+        }
+    }
+}
