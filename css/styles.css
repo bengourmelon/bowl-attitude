@@ -10268,11 +10268,11 @@ header .container {
 .article-presentation {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
 }
-.article-presentation img {
-  width: 100px;
+.article-presentation i {
+  font-size: 3rem;
+  color: #FF5D5D;
 }
 
 .contact {

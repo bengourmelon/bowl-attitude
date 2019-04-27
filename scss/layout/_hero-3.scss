@@ -2,15 +2,13 @@
     background-color: #F0EDE9;
 }
 
-
-
 .article-presentation {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
 
-    img {
-        width: 100px;
+    i {
+        font-size: 3rem;
+        color: $orange;
     }
 }
