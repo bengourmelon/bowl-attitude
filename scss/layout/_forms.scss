@@ -1,10 +1,13 @@
+// .search-form dans le header
+
 .search-form {
     display: flex;
     justify-content: flex-end;
     margin-top: 30px;
 }
 
-.search-form input, .search-form button {
+.search-form input,
+.search-form button {
     border: none;
     background-color: rgba(0, 0, 0, 0.5);
     color: #000000;
@@ -17,21 +20,38 @@
 }
 
 button {
-    
-    cursor:pointer;
+
+    cursor: pointer;
 
     .fas {
         font-size: 1.5rem;
-        color:$orange;
-        }
+        color: $orange;
+    }
 
-        &:hover {
-            background-color: rgba(#fff, 1)
-        }
+    &:hover {
+        background-color: rgba(#fff, 1)
+    }
 }
 
 ::placeholder {
     color: $primary;
     font-style: italic;
 
+}
+
+// newsletter form
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.contact-form input {
+        width: 250px;
+
+    @media (min-width : $bp-medium) {
+        width: 400px;
+    }
 }

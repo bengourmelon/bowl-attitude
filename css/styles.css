@@ -10276,32 +10276,29 @@ header .container {
 }
 
 .contact {
-  font-family: "Lato", sans-serif;
   background-image: url("../images/bg_newsletter.jpg");
   background-size: cover;
-  color: #FF5D5D;
-  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
-.contact h3 {
-  font-size: 2rem;
+@media (min-width: 768px) {
+  .contact {
+    padding: 75px 75px;
+  }
+}
+@media (min-width: 992px) {
+  .contact {
+    padding: 130px 170px;
+  }
+}
+.contact h2 {
   text-align: center;
-  padding: 50px;
+  color: #000000;
 }
-.contact form {
-  max-width: 600px;
+
+.contact-container {
   padding: 40px 40px 20px;
   background-color: rgba(234, 226, 222, 0.8);
-}
-.contact form button {
-  background-color: #FF5D5D;
-  border: none;
-  padding: 5px 20px;
-  color: #f8f9fa;
-  margin: 0 auto;
-}
-.contact form button:hover {
-  background-color: #922801;
-  transition: 0.5s;
 }
 
 .item-2 .contim {
@@ -10424,7 +10421,8 @@ footer h3 {
   margin-top: 30px;
 }
 
-.search-form input, .search-form button {
+.search-form input,
+.search-form button {
   border: none;
   background-color: rgba(0, 0, 0, 0.5);
   color: #000000;
@@ -10450,6 +10448,22 @@ button:hover {
 ::placeholder {
   color: #FF5D5D;
   font-style: italic;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form input {
+  width: 250px;
+}
+@media (min-width: 768px) {
+  .contact-form input {
+    width: 400px;
+  }
 }
 
 .btn-4 {
@@ -10520,6 +10534,18 @@ button:hover {
 .more:hover::before,
 .more:hover::after {
   background-color: #ffffff;
+}
+
+button {
+  background-color: #FF5D5D;
+  border: none;
+  padding: 5px 20px;
+  color: #f8f9fa;
+  margin: 0 auto;
+}
+button:hover {
+  background-color: #922801;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=styles.css.map */

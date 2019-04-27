@@ -1,28 +1,24 @@
 .contact {
-    font-family: $font-default;
     background-image: url('../images/bg_newsletter.jpg');
     background-size: cover;
-    color: $orange;
-    padding-bottom: 50px;
-    h3 {
-        font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    
+    @media (min-width: $bp-medium) {
+        padding: 75px 75px;
+    }
+
+    @media (min-width: $bp-large) {
+        padding: 130px 170px;
+    }
+
+    h2 {
         text-align: center;
-        padding: 50px;
+        color: $black;
     }
-    form {
-        max-width: 600px;
-        padding: 40px 40px 20px;
-        background-color: rgba(234, 226, 222, .8);
-        button {
-            background-color: $orange;
-            border: none;
-            padding: 5px 20px;
-            color: $light;
-            margin: 0 auto;
-            &:hover {
-                background-color: rgb(146, 40, 1);
-                transition: 0.5s;
-            }
-        }
-    }
+}
+
+.contact-container {
+    padding: 40px 40px 20px;
+    background-color: rgba(234, 226, 222, .8);
 }
