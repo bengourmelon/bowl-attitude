@@ -10055,19 +10055,25 @@ h2 {
   font-family: "strawberry_blossom", cursive;
 }
 
+h3 {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 p {
   font-weight: 400;
   font-size: 0.875rem;
 }
 
 a {
-  color: #FF5D5D;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 a:hover {
   text-decoration: underline;
-  color: white;
+  color: #FF5D5D;
 }
 
 .stellarnav.mobile.left > ul {
@@ -10368,7 +10374,7 @@ footer h3 {
 }
 .footer-content .footer-social ul {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 .footer-content .footer-social ul li {
   margin-bottom: 10px;
@@ -10379,7 +10385,6 @@ footer h3 {
   display: block;
   width: 48px;
   height: 48px;
-  margin: 0 2rem 0 0;
 }
 
 .btn-fb {
@@ -10468,11 +10473,10 @@ button:hover {
 
 .btn-4 {
   display: inline-block;
-  margin-top: 50px;
-  background-color: #FF5D5D;
+  background-color: #F0EDE9;
   position: relative;
   z-index: 1;
-  padding: 1.25rem 2.5rem;
+  padding: 1.15rem 2.5rem;
   text-transform: uppercase;
   font-size: 1.1rem;
   font-weight: 500;
@@ -10497,43 +10501,6 @@ button:hover {
 
 .btn-4:hover::before {
   width: 0;
-}
-
-.more {
-  font-size: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid #28a745;
-  transition: 0.3s;
-  position: relative;
-  margin-top: auto;
-}
-
-.more:hover {
-  background-color: #28a745;
-  transform: rotate(180deg);
-}
-
-.more::before,
-.more::after {
-  content: "";
-  width: 20px;
-  height: 2px;
-  background-color: #28a745;
-  position: absolute;
-  left: calc(50% - 10px);
-  top: calc(50% - 1px);
-  transition: 0.3s;
-}
-
-.more::before {
-  transform: rotate(90deg);
-}
-
-.more:hover::before,
-.more:hover::after {
-  background-color: #ffffff;
 }
 
 button {

@@ -2,11 +2,10 @@
 
   .btn-4 {
     display: inline-block;
-    margin-top: 50px;
-    background-color: $primary;
+    background-color: $beige;
     position: relative;
     z-index: 1;
-    padding: 1.25rem 2.5rem;
+    padding: 1.15rem 2.5rem;
     text-transform: uppercase;
     font-size: 1.1rem;
     font-weight: 500;
@@ -26,7 +25,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: $primary;
+    background-color: $orange;
     transition: 0.5s;
   }
 
@@ -34,44 +33,45 @@
     width: 0;
   }
 
-  // Boutons en savoir plus
 
-  .more {
-    font-size: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid $green;
-    transition: 0.3s;
-    position: relative;
-    margin-top: auto;
-  }
+  // // Boutons en savoir plus
 
-  .more:hover {
-    background-color: $green;
-    transform: rotate(180deg);
-  }
+  // .more {
+  //   font-size: 0;
+  //   width: 40px;
+  //   height: 40px;
+  //   border-radius: 50%;
+  //   border: 1px solid $green;
+  //   transition: 0.3s;
+  //   position: relative;
+  //   margin-top: auto;
+  // }
 
-  .more::before,
-  .more::after {
-    content: '';
-    width: 20px;
-    height: 2px;
-    background-color: $green;
-    position: absolute;
-    left: calc(50% - 10px);
-    top: calc(50% - 1px);
-    transition: 0.3s;
-  }
+  // .more:hover {
+  //   background-color: $green;
+  //   transform: rotate(180deg);
+  // }
 
-  .more::before {
-    transform: rotate(90deg);
-  }
+  // .more::before,
+  // .more::after {
+  //   content: '';
+  //   width: 20px;
+  //   height: 2px;
+  //   background-color: $green;
+  //   position: absolute;
+  //   left: calc(50% - 10px);
+  //   top: calc(50% - 1px);
+  //   transition: 0.3s;
+  // }
 
-  .more:hover::before,
-  .more:hover::after {
-    background-color: $white;
-  }
+  // .more::before {
+  //   transform: rotate(90deg);
+  // }
+
+  // .more:hover::before,
+  // .more:hover::after {
+  //   background-color: $white;
+  // }
 
   // bouton envoyer newsletter
 
@@ -81,8 +81,9 @@
     padding: 5px 20px;
     color: $light;
     margin: 0 auto;
+
     &:hover {
-        background-color: rgb(146, 40, 1);
-        transition: 0.5s;
+      background-color: rgb(146, 40, 1);
+      transition: 0.5s;
     }
   }

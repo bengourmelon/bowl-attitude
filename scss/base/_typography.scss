@@ -14,6 +14,11 @@ h2 {
     font-family: $font-title;
 }
 
+h3 {
+    color: $black;
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 p {
 // color: $grey;
@@ -22,13 +27,13 @@ font-size: 0.875rem;
 }
 
 a {
-    color: $link-color;
+    color: $white;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 
 
     &:hover {
         text-decoration: underline;
-        color : white;
+        color : $orange;
     }
 }
