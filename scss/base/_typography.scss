@@ -9,6 +9,9 @@ h1 {
     font-family: $font-title;
 }
 
+h2{
+    font-family: $font-title;
+}
 
 p {
 // color: $grey;
@@ -26,4 +29,20 @@ a {
         text-decoration: underline;
         color : white;
     }
+}
+
+//header
+
+//form
+.search-form input{
+    font-size: 1rem;
+}
+
+//heros-2
+.text h2{
+    font-size: 1.40rem
+}
+
+.text p{
+    font-size: 1rem;
 }
