@@ -73,17 +73,3 @@
   //   background-color: $white;
   // }
 
-  // bouton envoyer newsletter
-
-  button {
-    background-color: $orange;
-    border: none;
-    padding: 5px 20px;
-    color: $light;
-    margin: 0 auto;
-
-    &:hover {
-      background-color: rgb(146, 40, 1);
-      transition: 0.5s;
-    }
-  }
