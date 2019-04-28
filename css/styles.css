@@ -10290,7 +10290,7 @@ header .container {
 }
 
 .contact {
-  background-image: url("../images/bg_newsletter.jpg");
+  background: url("../images/bg_newsletter.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
