@@ -1,16 +1,16 @@
-.page-footer {
-    background: url('../images/bg_footer.png') no-repeat;
-    background-size: cover;
-    padding-top: 650px
-}
-
-footer .fab {
-    font-size: 2.5rem;
-}
-
-footer p,
-footer h3 {
+.footer-style {
+    position: relative;
     color: $white;
+
+}
+
+.footer-infos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .footer-content {
@@ -18,14 +18,27 @@ footer h3 {
     flex-direction: column;
     align-items: center;
 
+    .footer-logo img {
+        width: 175px;
+    }
+
     .footer-nav {
         margin: $big-spacer 0;
+
+        li {
+            margin: 0.35rem 0;
+        }
+    }
+
+    .logo-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-social ul {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: space-evenly;
 
         li {
             margin-bottom: 10px
@@ -33,11 +46,71 @@ footer h3 {
     }
 }
 
+.btn-rs {
+    font-size: 0;
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+.btn-fb {
+    background: url('../images/btn-fb.png') center;
+    background-size: cover;
+}
+
+.btn-tw {
+    background: url('../images/btn-tw.png') center;
+    background-size: cover;
+}
+
+.btn-ins {
+    background: url('../images/btn-ins.png') center;
+    background-size: cover;
+    ;
+}
+
 @media (min-width: $bp-medium) {
     .footer-content {
-        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: $bp-large) {
+    .footer-content .logo-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-basis: 66%;
+    }
+    .footer-social {
+        flex-basis: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        ul{
+            width: 200px;
+        }
+    }
+
+    .logo-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-basis: 66%;
+    }
+}
+
+.footer-img {
+    width: 100%;
+    height: 950px;
+    background: url(../images/bg_footer.png) center top no-repeat;
+    background-size: cover;
+
+    @media (min-width: $bp-large) {
+        height: 750px;
     }
 }

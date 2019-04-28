@@ -1,16 +1,22 @@
 .presentation-content {
-    background-color: #F0EDE9;
+    background-color: $beige;
 }
-
-
 
 .article-presentation {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
 
-    img {
-        width: 100px;
+    i {
+        font-size: 4rem;
+        color: $orange;
     }
+} 
+
+.testimonies img {
+    width: 45px;
+}
+
+.testimonies-item2 img {
+    margin-left: auto; 
 }
