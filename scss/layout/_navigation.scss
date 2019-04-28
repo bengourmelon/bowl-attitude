@@ -1,7 +1,7 @@
 
-.stellarnav ul li > a{
-    margin: 0;
-}
+/* .stellarnav ul li > a{
+    margin: 0
+} */
 
 //stellarnav
 .stellarnav .menu-toggle {
@@ -63,7 +63,9 @@
     background: $orange;
 }
 
-
+.stellarnav.mobile.left>ul {
+    z-index: 9999;
+  }
 .stellarnav li a {
     color: #ffff;
 }
