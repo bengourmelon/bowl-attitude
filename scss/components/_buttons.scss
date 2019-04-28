@@ -1,75 +1,39 @@
   // boutons principaux
 
-  .btn-4 {
-    display: inline-block;
-    background-color: $beige;
+  .btn-7 {
     position: relative;
-    z-index: 1;
-    padding: 1.15rem 2.5rem;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  .btn-4::before {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    display: inline-block;
+    padding: 0.75em 2em;
+    margin: 20px 30px;
     background-color: $orange;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
     transition: 0.5s;
   }
 
-  .btn-4:hover::before {
-    width: 0;
+
+  .btn-7 {
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: none;
+      color: $white;
+    }
   }
 
+  .btn-7::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: $gris;
+    transition: 0.3s;
+    transform: scaleX(0)
+  }
 
-  // // Boutons en savoir plus
-
-  // .more {
-  //   font-size: 0;
-  //   width: 40px;
-  //   height: 40px;
-  //   border-radius: 50%;
-  //   border: 1px solid $green;
-  //   transition: 0.3s;
-  //   position: relative;
-  //   margin-top: auto;
-  // }
-
-  // .more:hover {
-  //   background-color: $green;
-  //   transform: rotate(180deg);
-  // }
-
-  // .more::before,
-  // .more::after {
-  //   content: '';
-  //   width: 20px;
-  //   height: 2px;
-  //   background-color: $green;
-  //   position: absolute;
-  //   left: calc(50% - 10px);
-  //   top: calc(50% - 1px);
-  //   transition: 0.3s;
-  // }
-
-  // .more::before {
-  //   transform: rotate(90deg);
-  // }
-
-  // .more:hover::before,
-  // .more:hover::after {
-  //   background-color: $white;
-  // }
-
+  .btn-7:hover::before {
+    transform: scale(1)
+  }
