@@ -10072,7 +10072,7 @@ a {
   font-size: 1.2rem;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #FF5D5D;
 }
 
@@ -10521,7 +10521,6 @@ button:hover {
   font-weight: bold;
 }
 .btn-7:hover {
-  text-decoration: none;
   color: #ffffff;
 }
 
