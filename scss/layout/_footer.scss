@@ -78,6 +78,10 @@
 }
 
 @media (min-width: $bp-large) {
+    .footer-content {
+        margin-bottom: 40px;
+    }
+
     .footer-content .logo-nav {
         display: flex;
         flex-direction: row;
@@ -111,6 +115,6 @@
     background-size: cover;
 
     @media (min-width: $bp-large) {
-        height: 750px;
+        height: 850px;
     }
 }

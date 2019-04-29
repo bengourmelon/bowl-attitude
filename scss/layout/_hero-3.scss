@@ -13,15 +13,32 @@
     }
 
     p {
-        width: 200px;
+        width: 220px;
+        color: $gris;
     }
 
 }
 
-.testimonies img {
-    width: 45px;
+.testimonies {
+
+    img {
+        width: 45px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: $gris;
+    }
+
+    h3{
+        font-size: 1.6rem;
+        color: $gris;
+    }
 }
+
+
 
 .testimonies-item2 img {
     margin-left: auto;
 }
+
