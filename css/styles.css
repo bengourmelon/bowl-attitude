@@ -7950,7 +7950,7 @@ h2 {
   font-family: "strawberry_blossom", cursive; }
 
 h3 {
-  color: #000000;
+  color: #707070;
   font-size: 1rem;
   font-weight: bold; }
 
@@ -8193,11 +8193,15 @@ concept-articles {
 .testimonies img {
   width: 45px; }
 .testimonies p {
-  font-size: 1.2rem;
   color: #707070; }
+  @media (min-width: 768px) {
+    .testimonies p {
+      font-size: 1.2rem; } }
 .testimonies h3 {
-  font-size: 1.6rem;
   color: #707070; }
+  @media (min-width: 768px) {
+    .testimonies h3 {
+      font-size: 1.6rem; } }
 
 .testimonies-item2 img {
   margin-left: auto; }
@@ -8213,14 +8217,18 @@ concept-articles {
       padding: 75px 75px; } }
   @media (min-width: 992px) {
     .contact {
-      padding: 200px 400px; } }
-  .contact h2 {
-    text-align: center;
-    color: #000000; }
+      padding: 200px 200px; } }
+
+h2 {
+  text-align: center;
+  color: #000000; }
 
 .contact-container {
-  padding: 40px 40px 20px;
+  padding: 70px 40px 50px;
   background-color: rgba(255, 255, 255, 0.8); }
+  @media (min-width: 992px) {
+    .contact-container {
+      max-width: 750px; } }
 
 .item-2 .contim {
   overflow: hidden; }
@@ -8278,6 +8286,9 @@ concept-articles {
     justify-content: space-evenly; }
     .footer-content .footer-social ul li {
       margin-bottom: 10px; }
+
+.footer-social h2 {
+  color: #ffffff; }
 
 .btn-rs {
   font-size: 0;

@@ -26,19 +26,24 @@
     }
 
     p {
-        font-size: 1.2rem;
         color: $gris;
+        @media (min-width: $bp-medium) {
+            font-size: 1.2rem;
+           
+        }
+
     }
 
-    h3{
-        font-size: 1.6rem;
+    h3 {
         color: $gris;
+        @media (min-width: $bp-medium) {
+            font-size: 1.6rem;
+           
+        }
     }
 }
-
 
 
 .testimonies-item2 img {
     margin-left: auto;
 }
-
