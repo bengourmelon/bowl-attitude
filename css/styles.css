@@ -8115,26 +8115,33 @@ a {
 .figcaption {
   color: #000000; }
 
-.hero-prez {
-  overflow: hidden; }
+@media (min-width: 992px) {
+  .hero-prez {
+    overflow: hidden; } }
 
-.hero-prez .figure {
-  overflow: hidden; }
+@media (min-width: 992px) {
+  .hero-prez .figure {
+    overflow: hidden; } }
 
-.hero-prez img {
-  transition: 0.5s; }
+@media (min-width: 992px) {
+  .hero-prez img {
+    transition: 0.5s; } }
 
-.hero-prez a:hover img {
-  transform: scale(1.1); }
+@media (min-width: 992px) {
+  .hero-prez a:hover img {
+    transform: scale(1.1); } }
 
 .hero-prez .figcaption {
   position: absolute;
   bottom: 0;
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  transition: 0.5s;
-  opacity: 0; }
+  background-color: rgba(255, 255, 255, 0.5); }
+  @media (min-width: 992px) {
+    .hero-prez .figcaption {
+      top: 60%;
+      transition: 0.5s;
+      opacity: 0; } }
 
 .hero-prez:hover .figcaption {
   opacity: 1;
