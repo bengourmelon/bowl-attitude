@@ -3,6 +3,10 @@
      z-index: 10;
      color: $white;
      padding-top: 50%;
+
+     @media (max-width: $bp-small) {
+        padding-top: 32%;
+    }
  } 
 
  .page-header-inner {
@@ -10,8 +14,7 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-
-     padding: 40px;
+     padding: 20px;
      z-index: 999999;
 
      @media (min-width: $bp-large) {
@@ -21,9 +24,8 @@
  }
 
  .logo img {
-     @media (min-width: $bp-small) {
-         width: 160px;
-
+     @media (max-width: $bp-small) {
+         width: 130px;
      }
 
 
