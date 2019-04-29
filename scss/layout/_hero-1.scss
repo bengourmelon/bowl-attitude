@@ -4,32 +4,43 @@
 }
 
 .figure {
-    overflow: hidden;
-    position: relative;  
+    position: relative;
 }
 
-.figure a{
+.figure a {
     display: block;
 }
 
 .figcaption {
-    overflow: hidden;
     color: $black;
 }
 
-figure .contim {
-    overflow: hidden;    
-  }
 
-figure img {
-    transition: 0.5s;
-  }
 
-figure a:hover img {
-    transform: scale(1.1);
+
+
+
+
+
+
+
+.hero-prez{
+    overflow: hidden;
 }
 
-.figcaption {
+.hero-prez .figure {
+    overflow: hidden;
+}
+
+.hero-prez img {
+    transition: 0.5s;
+}
+
+.hero-prez a:hover img {
+    transform: scale(1.1)
+}
+
+.hero-prez .figcaption {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -39,7 +50,8 @@ figure a:hover img {
     opacity: 0;
 }
 
-.figure:hover .figcaption {
+.hero-prez:hover .figcaption {
     opacity: 1;
     bottom: 0;
 }
+

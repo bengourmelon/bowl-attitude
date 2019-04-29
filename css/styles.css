@@ -7968,9 +7968,9 @@ a {
 
 .baseline h2 {
   font-size: 3rem; }
-  @media (min-width: 992px) {
+  @media (max-width: 768px) {
     .baseline h2 {
-      font-size: 5.2rem; } }
+      font-size: 8rem; } }
   @media (min-width: 480px) {
     .baseline h2 {
       font-size: 4.6rem; } }
@@ -8051,6 +8051,9 @@ a {
   z-index: 10;
   color: #ffffff;
   bottom: 20%; }
+  @media (min-width: 992px) {
+    .baseline {
+      top: 40%; } }
   @media (max-width: 480px) {
     .baseline {
       padding-top: 32%; } }
@@ -8067,11 +8070,14 @@ a {
       flex-direction: row;
       align-items: flex-start; } }
 
-@media (max-width: 480px) {
-  .logo img {
-    width: 130px; } }
+.logo img {
+  width: 110px; }
+  @media (min-width: 480px) {
+    .logo img {
+      width: 160px; } }
+
 @media (min-width: 992px) {
-  .logo img .main-nav {
+  .main-nav {
     background-color: rgba(0, 0, 0, 0.5); } }
 
 .header-nav {
@@ -8091,26 +8097,27 @@ a {
   color: #000000; }
 
 .figure {
-  overflow: hidden;
   position: relative; }
 
 .figure a {
   display: block; }
 
 .figcaption {
-  overflow: hidden;
   color: #000000; }
 
-figure .contim {
+.hero-prez {
   overflow: hidden; }
 
-figure img {
+.hero-prez .figure {
+  overflow: hidden; }
+
+.hero-prez img {
   transition: 0.5s; }
 
-figure a:hover img {
+.hero-prez a:hover img {
   transform: scale(1.1); }
 
-.figcaption {
+.hero-prez .figcaption {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -8119,7 +8126,7 @@ figure a:hover img {
   transition: 0.5s;
   opacity: 0; }
 
-.figure:hover .figcaption {
+.hero-prez:hover .figcaption {
   opacity: 1;
   bottom: 0; }
 
@@ -8138,8 +8145,8 @@ figure a:hover img {
       color: #f8f9fa;
       position: absolute;
       top: 14%;
-      left: 26%;
-      width: 320px;
+      left: 31%;
+      width: 300px;
       padding: 40px 60px; }
   .concept-articles .qsn-2 .img img {
     margin: 0 0 0 auto; }
@@ -8336,7 +8343,7 @@ concept-articles {
   @media (min-width: 790px) {
     .search-form input,
     .search-form button {
-      padding: 0.5rem 0.5rem; } }
+      padding: 0.5rem 0.3rem; } }
 
 .search-form input:focus {
   background-color: white; }
@@ -8398,7 +8405,14 @@ button {
 .owl-dots {
   position: absolute;
   bottom: 20px;
-  width: 100%; }
+  width: 100%;
+  height: 10vh; }
+  @media (min-width: 480px) {
+    .owl-dots {
+      height: 20vh; } }
+  @media (min-width: 992px) {
+    .owl-dots {
+      height: 40vh; } }
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
@@ -8432,8 +8446,5 @@ button {
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #FF5D5D; }
-
-.owl-carousel img {
-  height: 120vh; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -43,8 +43,8 @@ a {
 .baseline h2{
     font-size: 3rem;
 
-    @media (min-width: $bp-large) {
-        font-size: 5.2rem;
+    @media (max-width: $bp-medium) {
+        font-size: 8rem;
     }
     @media (min-width: $bp-small) {
         font-size: 4.6rem;
