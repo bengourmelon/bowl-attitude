@@ -2,12 +2,12 @@
     position: absolute;
     z-index: 10;
     color: $white;
-    bottom: 20%;
-    @media (min-width: $bp-large) {
+    bottom: 60%;
+    @media (min-width: $bp-medium) {
         top: 40%;
     }
-    @media (max-width: $bp-small) {
-        padding-top: 32%;
+    @media (min-width: $bp-large) {
+       top:60%;
     }
 }
 

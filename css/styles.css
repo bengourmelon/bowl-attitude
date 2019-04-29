@@ -7967,19 +7967,28 @@ a {
     color: #FF5D5D; }
 
 .baseline h2 {
-  font-size: 3rem; }
-  @media (max-width: 768px) {
-    .baseline h2 {
-      font-size: 8rem; } }
-  @media (min-width: 480px) {
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.8rem; }
+  @media (min-width: 768px) {
     .baseline h2 {
       font-size: 4.6rem; } }
+  @media (min-width: 992px) {
+    .baseline h2 {
+      font-size: 8rem; } }
 
 .search-form input {
   font-size: 1rem; }
 
+.search-form .input {
+  color: #ffffff; }
+
 .hero-1 h2 {
   color: #000000; }
+
+.figcaption h2 {
+  text-align: left; }
 
 .text h2 {
   font-size: 1.4rem; }
@@ -8050,13 +8059,13 @@ a {
   position: absolute;
   z-index: 10;
   color: #ffffff;
-  bottom: 20%; }
-  @media (min-width: 992px) {
+  bottom: 60%; }
+  @media (min-width: 768px) {
     .baseline {
       top: 40%; } }
-  @media (max-width: 480px) {
+  @media (min-width: 992px) {
     .baseline {
-      padding-top: 32%; } }
+      top: 60%; } }
 
 .page-header-inner {
   position: absolute;
@@ -8094,7 +8103,8 @@ a {
 
 .hero-1 h1 {
   text-align: center;
-  color: #000000; }
+  color: #000000;
+  padding: 50px 0; }
 
 .figure {
   position: relative; }
@@ -8152,7 +8162,7 @@ a {
   .concept-articles .qsn-2 .img img {
     margin: 0 0 0 auto; }
   .concept-articles .qsn-2 .text {
-    left: 43%; }
+    left: 44%; }
   @media (max-width: 768px) {
     .concept-articles {
       display: flex;
@@ -8160,7 +8170,7 @@ a {
       justify-content: center; }
       .concept-articles .qsn {
         position: initial;
-        width: 350px; }
+        width: 300px; }
         .concept-articles .qsn .text {
           position: initial;
           width: 100%;
@@ -8377,7 +8387,7 @@ button {
   cursor: pointer; }
   button .fas {
     font-size: 1.5rem;
-    color: #FF5D5D; }
+    color: #ffffff; }
   button:hover {
     background-color: white; }
 
@@ -8436,12 +8446,12 @@ button {
   bottom: 20px;
   width: 100%;
   height: 10vh; }
-  @media (min-width: 480px) {
+  @media (min-width: 768px) {
     .owl-dots {
       height: 20vh; } }
   @media (min-width: 992px) {
     .owl-dots {
-      height: 40vh; } }
+      height: 35vh; } }
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
