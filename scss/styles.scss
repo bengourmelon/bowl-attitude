@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'vendors/normalize';
 
 @import 'abstracts/variables';
@@ -21,4 +22,29 @@
 @import 'components/buttons';
 @import 'components/carousel';
 
+=======
+@import 'vendors/normalize';
+
+@import 'abstracts/variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import 'abstracts/mixins';
+
+@import 'base/base';
+@import 'base/typography';
+
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/hero-1';
+@import 'layout/hero-2';
+@import 'layout/hero-3';
+@import 'layout/contact';
+@import 'layout/services';
+@import 'layout/footer';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/carousel';
+
+>>>>>>> 7df3604147eeca4967fac023cbab160eb3e1e2d2
 @import 'pages/home';

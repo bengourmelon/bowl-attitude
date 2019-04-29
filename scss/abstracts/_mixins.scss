@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* title */
 
 .title-style {
@@ -23,3 +24,30 @@
     height: 600px;
 }
 
+=======
+/* title */
+
+.title-style {
+    position: relative;
+}
+
+.title-infos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-infos h1 {
+    text-align: center;
+    color: $white;
+}
+
+.title-img img {
+    width: 100%;
+    height: 600px;
+}
+
+>>>>>>> 7df3604147eeca4967fac023cbab160eb3e1e2d2
