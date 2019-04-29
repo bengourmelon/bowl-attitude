@@ -2,7 +2,7 @@
      position: absolute;
      z-index: 10;
      color: $white;
-     padding-top: 50%;
+    bottom: 20%;
 
      @media (max-width: $bp-small) {
         padding-top: 32%;
@@ -41,3 +41,16 @@
          display: flex;
      }
  
+     .owl-dots{
+        height: 20vh;
+     
+         @media (min-width: $bp-small) {
+             height: 40vh;
+         }
+     
+         @media (min-width: $bp-large) {
+             height: 50vh;
+         }
+     
+     
+     }

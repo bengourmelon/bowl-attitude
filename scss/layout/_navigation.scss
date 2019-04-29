@@ -45,7 +45,7 @@
 }
 
 .stellarnav ul {
-
+    background-color: rgba(0, 0, 0, 0.5);
     @media (min-width: $bp-large) {
         li>a {
             color: #ffff;
@@ -80,3 +80,5 @@
     border-bottom: solid 3px $white;
     position: absolute;
 }
+
+

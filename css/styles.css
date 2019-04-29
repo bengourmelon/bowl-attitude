@@ -8017,13 +8017,15 @@ a {
     .stellarnav .close-menu .icon-close::before, .stellarnav .close-menu .icon-close::after {
       width: 30px; }
 
-@media (min-width: 992px) {
-  .stellarnav ul li > a {
-    color: #ffff;
-    padding: 1rem;
-    margin: 0; }
-    .stellarnav ul li > a:hover {
-      background-color: #FF5D5D; } }
+.stellarnav ul {
+  background-color: rgba(0, 0, 0, 0.5); }
+  @media (min-width: 992px) {
+    .stellarnav ul li > a {
+      color: #ffff;
+      padding: 1rem;
+      margin: 0; }
+      .stellarnav ul li > a:hover {
+        background-color: #FF5D5D; } }
 
 .stellarnav.mobile ul {
   background: #FF5D5D; }
@@ -8048,7 +8050,7 @@ a {
   position: absolute;
   z-index: 10;
   color: #ffffff;
-  padding-top: 50%; }
+  bottom: 20%; }
   @media (max-width: 480px) {
     .baseline {
       padding-top: 32%; } }
@@ -8074,6 +8076,15 @@ a {
 
 .header-nav {
   display: flex; }
+
+.owl-dots {
+  height: 20vh; }
+  @media (min-width: 480px) {
+    .owl-dots {
+      height: 40vh; } }
+  @media (min-width: 992px) {
+    .owl-dots {
+      height: 50vh; } }
 
 .hero-1 h1 {
   text-align: center;
@@ -8423,6 +8434,6 @@ button {
   background: #FF5D5D; }
 
 .owl-carousel img {
-  height: 100vh; }
+  height: 120vh; }
 
 /*# sourceMappingURL=styles.css.map */
