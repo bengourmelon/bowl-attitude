@@ -7950,7 +7950,7 @@ h2 {
   font-family: "strawberry_blossom", cursive; }
 
 h3 {
-  color: #000000;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: bold; }
 
@@ -8135,7 +8135,8 @@ a {
   padding: 80px 0;
   text-align: center; }
   .concept-articles h2 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    color: #ffffff; }
   .concept-articles .qsn {
     padding: 40px 0;
     position: relative; }
@@ -8189,13 +8190,26 @@ concept-articles {
 .article-presentation {
   display: flex;
   flex-direction: column;
-  text-align: center; }
+  align-items: center; }
   .article-presentation i {
     font-size: 4rem;
     color: #FF5D5D; }
+  .article-presentation p {
+    width: 220px;
+    color: #707070; }
 
 .testimonies img {
   width: 45px; }
+.testimonies p {
+  color: #707070; }
+  @media (min-width: 768px) {
+    .testimonies p {
+      font-size: 1.2rem; } }
+.testimonies h3 {
+  color: #707070; }
+  @media (min-width: 768px) {
+    .testimonies h3 {
+      font-size: 1.6rem; } }
 
 .testimonies-item2 img {
   margin-left: auto; }
@@ -8204,20 +8218,25 @@ concept-articles {
   background: url("../images/bg_newsletter.jpg") center no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 60px 0 150px; }
   @media (min-width: 768px) {
     .contact {
       padding: 75px 75px; } }
   @media (min-width: 992px) {
     .contact {
-      padding: 155px 170px; } }
-  .contact h2 {
-    text-align: center;
-    color: #000000; }
+      padding: 200px 200px; } }
+
+h2 {
+  text-align: center;
+  color: #000000; }
 
 .contact-container {
-  padding: 40px 40px 20px;
-  background-color: rgba(234, 226, 222, 0.8); }
+  padding: 70px 40px 50px;
+  background-color: rgba(255, 255, 255, 0.8); }
+  @media (min-width: 992px) {
+    .contact-container {
+      max-width: 750px; } }
 
 .item-2 .contim {
   overflow: hidden; }
@@ -8276,6 +8295,9 @@ concept-articles {
     .footer-content .footer-social ul li {
       margin-bottom: 10px; }
 
+.footer-social h2 {
+  color: #ffffff; }
+
 .btn-rs {
   font-size: 0;
   display: block;
@@ -8300,6 +8322,9 @@ concept-articles {
     flex-direction: row;
     justify-content: space-evenly; } }
 @media (min-width: 992px) {
+  .footer-content {
+    margin-bottom: 40px; }
+
   .footer-content .logo-nav {
     display: flex;
     flex-direction: row;
@@ -8327,7 +8352,7 @@ concept-articles {
   background-size: cover; }
   @media (min-width: 992px) {
     .footer-img {
-      height: 750px; } }
+      height: 850px; } }
 
 .search-form {
   display: flex;
@@ -8384,7 +8409,11 @@ button {
   transition: 0.5s; }
 
 .btn-7 {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 0.875rem; }
+  @media (min-width: 992px) {
+    .btn-7 {
+      font-size: 1rem; } }
   .btn-7:hover {
     color: #ffffff; }
 
@@ -8395,7 +8424,7 @@ button {
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: #575757;
+  background-color: #707070;
   transition: 0.3s;
   transform: scaleX(0); }
 

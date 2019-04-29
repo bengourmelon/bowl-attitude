@@ -5,18 +5,45 @@
 .article-presentation {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 
     i {
         font-size: 4rem;
         color: $orange;
     }
-} 
 
-.testimonies img {
-    width: 45px;
+    p {
+        width: 220px;
+        color: $gris;
+    }
+
 }
 
+.testimonies {
+
+    img {
+        width: 45px;
+    }
+
+    p {
+        color: $gris;
+        @media (min-width: $bp-medium) {
+            font-size: 1.2rem;
+           
+        }
+
+    }
+
+    h3 {
+        color: $gris;
+        @media (min-width: $bp-medium) {
+            font-size: 1.6rem;
+           
+        }
+    }
+}
+
+
 .testimonies-item2 img {
-    margin-left: auto; 
+    margin-left: auto;
 }
