@@ -8182,10 +8182,12 @@ concept-articles {
 .article-presentation {
   display: flex;
   flex-direction: column;
-  text-align: center; }
+  align-items: center; }
   .article-presentation i {
     font-size: 4rem;
     color: #FF5D5D; }
+  .article-presentation p {
+    width: 200px; }
 
 .testimonies img {
   width: 45px; }

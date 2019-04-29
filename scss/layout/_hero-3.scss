@@ -5,18 +5,23 @@
 .article-presentation {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 
     i {
         font-size: 4rem;
         color: $orange;
     }
-} 
+
+    p {
+        width: 200px;
+    }
+
+}
 
 .testimonies img {
     width: 45px;
 }
 
 .testimonies-item2 img {
-    margin-left: auto; 
+    margin-left: auto;
 }
