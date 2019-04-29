@@ -2,7 +2,8 @@ $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     items: 1,
     dots: true,
-    loop: true
+    loop: true,
+    autoplay : 2000,
   });
 });
 

@@ -3,26 +3,9 @@
     color: $black;
 }
 
-.row {
-    @media (max-width: $bp-medium) {
-        justify-content: center
-    }
-}
-
-.hero-prez {
-    @media (min-width: $bp-medium) {
-        width: 230px;
-        padding: 10px 5px;
-    }
-
-    @media (max-width: $bp-medium) {
-        width: 180px;
-    }
-}
-
 .figure {
     overflow: hidden;
-    position: relative;
+    position: relative;  
 }
 
 .figure a{
@@ -31,15 +14,20 @@
 
 .figcaption {
     overflow: hidden;
+    color: $black;
 }
 
-.figure img {
+figure .contim {
+    overflow: hidden;    
+  
+}
+
+figure img {
     transition: 0.5s;
-    display: block
-}
+  }
 
-.figure a:hover img {
-    transform: scale(1.1)
+figure a:hover img {
+    transform: scale(1.1);
 }
 
 .figcaption {
