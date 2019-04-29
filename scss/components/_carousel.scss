@@ -44,16 +44,6 @@
     background: $primary;
 }
 
-.owl-dots{
-   height: 20vh;
-
-    @media (min-width: $bp-small) {
-        height: 40vh;
-    }
-
-    @media (min-width: $bp-large) {
-        height: 50vh;
-    }
-
-
+.owl-carousel img {
+    height: 100vh;
 }
