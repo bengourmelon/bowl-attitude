@@ -7950,7 +7950,7 @@ h2 {
   font-family: "strawberry_blossom", cursive; }
 
 h3 {
-  color: #707070;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: bold; }
 
@@ -8401,7 +8401,11 @@ button {
   transition: 0.5s; }
 
 .btn-7 {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 0.875rem; }
+  @media (min-width: 992px) {
+    .btn-7 {
+      font-size: 1rem; } }
   .btn-7:hover {
     color: #ffffff; }
 
