@@ -8162,7 +8162,7 @@ a {
       background-color: rgba(0, 0, 0, 0.65);
       color: #f8f9fa;
       position: absolute;
-      top: 14%;
+      top: 11.5%;
       left: 31%;
       width: 300px;
       padding: 40px 60px; }
@@ -8399,7 +8399,7 @@ button {
     background-color: white; }
 
 ::placeholder {
-  color: #FF5D5D;
+  color: #ffffff;
   font-style: italic; }
 
 .contact-form {
